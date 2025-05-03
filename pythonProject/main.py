@@ -43,7 +43,7 @@ def main_loop(routers):
             print("Unknown command, try again.")
 
 def ntp_delete(routers):
-    ntp_ip = input("Enter ntp ip add that you want to delete")
+    ntp_ip = input("Enter ntp ip address that you want to delete")
 
     for router in routers:
         try:
